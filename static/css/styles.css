@@ -1,0 +1,144 @@
+/* body {
+    background-image: url("images/bg1.jpg") !important;
+} */
+
+.u-section-1 {
+    background-image: url("../images/COLORFUL_ABSTRACT_CURVE_GEOMETRIC_BACKGROUND_generated.jpg");
+    background-position: 50% 50%;
+    background-size: auto 140%;
+}
+
+.u-section-1 .u-sheet-1 {
+    min-height: 100vh;
+}
+
+.u-section-1 .u-layout-wrap-1 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.u-section-1 .u-layout-cell-1 {
+    min-height: 727px;
+}
+
+.u-section-1 .u-container-layout-1 {
+    padding: 30px 20px;
+}
+
+.u-section-1 .u-image-1 {
+    width: 368px;
+    height: 368px;
+    margin: 65px 0 0 auto;
+}
+
+.u-section-1 .u-layout-cell-2 {
+    min-height: 727px;
+}
+
+.u-section-1 .u-container-layout-2 {
+    padding: 30px;
+}
+
+.u-section-1 .u-text-1 {
+    font-weight: 300;
+    margin: 102px auto 0 24px;
+}
+
+.u-section-1 .u-text-2 {
+    margin-left: 24px;
+    margin-right: auto;
+    margin-bottom: 0;
+    font-weight: 100;
+}
+
+.u-section-1 .u-text-3 {
+    font-weight: 100;
+    font-size: 1.5rem;
+    margin: 65px auto 0 24px;
+}
+
+@media (max-width: 1199px) {
+    .u-section-1 .u-layout-cell-1 {
+        min-height: 599px;
+    }
+
+    .u-section-1 .u-layout-cell-2 {
+        min-height: 599px;
+    }
+}
+
+@media (max-width: 991px) {
+    .u-section-1 .u-layout-cell-1 {
+        min-height: 459px;
+    }
+
+    .u-section-1 .u-image-1 {
+        width: 321px;
+        height: 321px;
+    }
+
+    .u-section-1 .u-layout-cell-2 {
+        min-height: 100px;
+    }
+}
+
+@media (max-width: 767px) {
+    .u-section-1 .u-layout-cell-1 {
+        min-height: 689px;
+    }
+
+    .u-section-1 .u-container-layout-1 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .u-section-1 .u-container-layout-2 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 575px) {
+    .u-section-1 .u-layout-cell-1 {
+        min-height: 434px;
+    }
+
+    .u-section-1 .u-image-1 {
+        width: 320px;
+        height: 320px;
+    }
+}
+
+#pulse {
+    animation: pulse 4s infinite;
+}
+
+#push {
+    animation: pulse 0.3s linear 1;
+}
+
+#pop {
+    animation: pop 0.5s linear 1;
+}
+
+@keyframes pulse {
+    50% {
+        transform: scale(0.9);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes push {
+    50% {
+        transform: scale(0.8);
+    }
+}
+
+@keyframes pop {
+    50% {
+        transform: scale(1.2);
+    }
+}
